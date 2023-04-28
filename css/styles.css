@@ -10,6 +10,34 @@
 }
 
 /* ===============DROPPING DEFULT STYLE================= */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-top: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -27,8 +55,24 @@ body {
   background-color: #ffffff;
 }
 
-.hidden {
-  display: none;
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid fuchsia;
 }
 
 .subtitle {
@@ -69,6 +113,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-right: 76px;
 }
 
 .logotype-part-header {
@@ -94,11 +140,26 @@ body {
   color: var(--batton-hover-bg);
 }
 
-.address {
-  font-style: normal;
+.page-header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
 }
 
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
 .contacts {
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -110,6 +171,20 @@ body {
 .contacts:focus {
   color: var(--batton-hover-bg);
 }
+
+.phone-link-item {
+  margin-right: 40px;
+}
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.address-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 /* ===============/HEADER - Navigation end contacts=============== */
 
 /* ===============MAIN PAGE=============== */
@@ -117,6 +192,8 @@ body {
 /* ===============Hero=============== */
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -126,6 +203,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button {
@@ -136,8 +216,14 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: #ffffff;
+  width: 169px;
+  margin-top: 88px;
+  padding: 16px 6px 16px 6px ;
+  gap: 10px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .button {
