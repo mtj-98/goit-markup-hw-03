@@ -15,38 +15,51 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <!-- Header - Navigation end contacts -->
-    <header class="page-header">
-      <nav class="navigation">
-        <a href="./index.html" class="link logotype"
-          >Web<span class="logotype-part-header">Studio</span>
-        </a>
-        <ul class="menu list">
-          <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
-          <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-          <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li><a class="link contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
+        <!-- Header - Navigation end contacts -->
+        <header class="page-header">
+          <div class="container page-header-container">
+            <nav class="navigation list page-nav">
+              <a href="./index.html" class="link logotype"
+                >Web<span class="logotype-part-header">Studio</span>
+              </a>
+              <ul class="menu list">
+                <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+                <li class="menu-item">
+                  <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
+              </ul>
+            </nav>
+            <div class="address-section">
+              <address class="">
+                <ul class="list address">
+                  <li>
+                    <a class="link contacts phone-link-item" href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li><a class="link contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+              </address>
+            </div>
+          </div>
+        </header>
     <!-- Portfolio -->
     <main>
       <section class="list">
-        <h1 class="hidden">Portfolio</h1>
-        <ul class="list">
+        <div class="container">
+          <h1 class="hidden-title">Portfolio</h1>
+        <ul class="list btn-menu">
           <li><button class="button button-filter" type="button">All</button></li>
           <li><button class="button button-filter" type="button">Web Site</button></li>
           <li><button class="button button-filter" type="button">App</button></li>
           <li><button class="button button-filter" type="button">Design</button></li>
           <li><button class="button button-filter" type="button">Marketing</button></li>
         </ul>
-        <ul class="list">
-          <li>
+        </div>
+        <div class="container ">
+        <ul class="list portfolio">
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/banking-app-interface-concept.jpg"
@@ -58,7 +71,7 @@
               <p class="discription-text">App</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/cashless-payment.jpg"
@@ -70,7 +83,7 @@
               <p class="discription-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/meditation-app.jpg"
@@ -82,7 +95,7 @@
               <p class="discription-text">App</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/taxi-service.jpg"
@@ -94,7 +107,7 @@
               <p class="discription-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/screen-illustrations.jpg"
@@ -106,14 +119,14 @@
               <p class="discription-text">Design</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img src="./images/portfolio-pic/online-courses.jpg" alt="Online Courses" />
               <h2 class="subtitle">Online Courses</h2>
               <p class="discription-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/instagram-stories-concept.jpg"
@@ -125,7 +138,7 @@
               <p class="discription-text">Design</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/organic-food.jpg"
@@ -137,7 +150,7 @@
               <p class="discription-text">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="menu-card">
             <a class="link" href="">
               <img
                 src="./images/portfolio-pic/fresh-coffee.jpg"
@@ -150,17 +163,20 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
-      <a class="link logotype" href="./index.html"
+    <footer class="footer-section">
+      <div class=" container footer">
+        <a class="link logotype footer-logo-text" href="./index.html"
         >Web<span class="logotype-part-footer">Studio</span></a
       >
-      <p class="discription-text-footer">
+      <p class="discription-text-footer footer-text ">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>

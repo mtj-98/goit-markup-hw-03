@@ -72,7 +72,6 @@ body {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid fuchsia;
 }
 
 .subtitle {
@@ -84,6 +83,8 @@ body {
 }
 
 .discription-text {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -99,6 +100,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 /*===============/COMPONENTS===============*/
@@ -142,13 +145,15 @@ body {
 
 .page-header-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   padding-top: 24px;
+  border-bottom: #E7E9FC 1px solid;             
 }
+
 
 .page-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .menu {
   display: flex;
@@ -219,11 +224,13 @@ body {
   color: #ffffff;
   width: 169px;
   margin-top: 88px;
-  padding: 16px 6px 16px 6px ;
+  padding: 16px 6px 16px 6px;
   gap: 10px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -246,14 +253,54 @@ body {
   color: var(--primary-button-color);
 }
 
-/* TEAM */
+/* ===============GOALS=============== */
+.goals-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.goals-section-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+/* ============= WHAT ARE WE DOING============ */
+.work-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.work-card:not(:nth-child(3n)) {
+    margin-right: 24px;
+    }
+
+
+/* ==================TEAM==================== */
+
+.team-section {
+  background: #F4F4FD;
+}
 
 .team {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
   background-color: #f4f4fd;
 }
 
 .bio-card-background {
   background-color: #ffffff;
+  margin-bottom: 120px;
+}
+.bio-card {
+  margin-bottom: 120px;
 }
 
 /* ===============/MAIN PAGE=============== */
@@ -271,3 +318,60 @@ body {
   color: #f4f4fd;
 }
 /* ===============/FOOTER=============== */
+
+/* ==============PORTFOLIO============== */
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;  
+}
+
+.menu-card {
+  margin-bottom: 48px;
+  border-bottom: #E7E9FC 1px solid;    
+  border-right: #E7E9FC 1px solid;  
+  border-left: #E7E9FC 1px solid;
+}
+.menu-card:not(:nth-child(3n)) {
+margin-right: 24px;
+}
+
+
+.btn-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+}
+
+.portfolio-section {
+  margin-top: 120px;
+}
+
+
+.footer {
+  background: #2e2f42;
+  height: 312px;
+}
+.footer-text {
+  width: 264px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  margin-left: 156px;
+  margin-right: auto;
+}
+.footer-logo-text {
+  margin-left: 156px;
+  margin-right: auto;
+  padding-bottom: 16px;
+}
