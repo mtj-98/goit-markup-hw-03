@@ -101,8 +101,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 /*===============/COMPONENTS===============*/
@@ -268,8 +266,6 @@ body {
 /* ===============GOALS=============== */
 .goals-section {
   padding: 120px 0 120px;
-  margin-top: 120px;
-  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -287,12 +283,12 @@ body {
 
 /* ============= WHAT ARE WE DOING============ */
 .work-section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 8px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .work-card:not(:nth-child(3n)) {
