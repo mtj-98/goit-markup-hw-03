@@ -148,8 +148,12 @@ body {
   align-items: baseline;
   padding-top: 24px;
   border-bottom: #e7e9fc 1px solid;
+  
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-nav {
   display: flex;
   align-items: baseline;
@@ -157,6 +161,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding: 24px 0 24px;
 }
 
 .menu-item:not(:last-child) {
@@ -182,6 +187,7 @@ body {
 .address {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .address-section {
