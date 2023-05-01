@@ -70,9 +70,9 @@ body {
 
 .container {
   width: 1158px;
+  padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px 0 15px;
 }
 
 .subtitle {
@@ -167,9 +167,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
+
 }
 
+.menu-item {
+  padding: 24px 0 24px;
+}
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -257,11 +260,13 @@ body {
 .button-filter {
   background-color: var(--primary-button-filter-bg);
   color: var(--primary-button-bg);
+  border: 1px solid #e7e9fc;
 }
 
 .button-filter:hover,
 .button-filter:focus {
   color: var(--primary-button-color);
+  border: 1px solid transparent;
 }
 
 /* ===============GOALS=============== */
@@ -381,8 +386,6 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-top: 96px;
-  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
@@ -390,11 +393,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
+  padding: 96px 0 120px;
+  gap: 24px;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  padding-bottom: 48px;
 }
 
-.portfolio-section {
-  margin-top: 120px;
-}
 
 .footer {
   padding: 100px 0 100px;
