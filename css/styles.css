@@ -147,9 +147,8 @@ body {
   display: flex;
   align-items: baseline;
   padding-top: 24px;
-  border-bottom: #E7E9FC 1px solid;             
+  border-bottom: #e7e9fc 1px solid;
 }
-
 
 .page-nav {
   display: flex;
@@ -276,14 +275,13 @@ body {
 }
 
 .work-card:not(:nth-child(3n)) {
-    margin-right: 24px;
-    }
-
+  margin-right: 24px;
+}
 
 /* ==================TEAM==================== */
 
 .team-section {
-  background: #F4F4FD;
+  background: #f4f4fd;
 }
 
 .team {
@@ -324,19 +322,18 @@ body {
 .portfolio {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;  
+  flex-wrap: wrap;
 }
 
 .menu-card {
   margin-bottom: 48px;
-  border-bottom: #E7E9FC 1px solid;    
-  border-right: #E7E9FC 1px solid;  
-  border-left: #E7E9FC 1px solid;
+  border-bottom: #e7e9fc 1px solid;
+  border-right: #e7e9fc 1px solid;
+  border-left: #e7e9fc 1px solid;
 }
 .menu-card:not(:nth-child(3n)) {
-margin-right: 24px;
+  margin-right: 24px;
 }
-
 
 .btn-menu {
   display: flex;
@@ -357,7 +354,6 @@ margin-right: 24px;
 .portfolio-section {
   margin-top: 120px;
 }
-
 
 .footer {
   background: #2e2f42;
