@@ -281,8 +281,12 @@ body {
 }
 
 /* ============= WHAT ARE WE DOING============ */
-.work-section {
+.doing-section {
   padding-bottom: 120px;
+  margin-top: 72px;
+}
+
+.work-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -300,28 +304,28 @@ body {
 /* ==================TEAM==================== */
 
 .team-section {
-  padding: 120px 0 120px;
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
-.tram-section-title {
+.team-section-title {
   margin-bottom: 72px;
 }
 .team {
-  margin-top: 120px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 8px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px;
   background-color: #f4f4fd;
 }
 
 .bio-card-background {
   background-color: #ffffff;
-  margin-bottom: 120px;
 }
 .bio-card {
-  margin-bottom: 120px;
+  margin-bottom: 72px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* ===============/MAIN PAGE=============== */
