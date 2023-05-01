@@ -306,26 +306,38 @@ body {
 .team-section {
   background: #f4f4fd;
   padding: 120px 0;
-}
-
-.team-section-title {
   margin-bottom: 72px;
 }
+
 .team {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
   background-color: #f4f4fd;
+  margin-top: 72px;
 }
 
-.bio-card-background {
-  background-color: #ffffff;
-}
 .bio-card {
-  margin-bottom: 72px;
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.member-info {
+  padding: 32px 16px 32px;
+}
+
+.member-name {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.member-profession {
+  text-align: center;
+  flex-direction: column;
 }
 
 /* ===============/MAIN PAGE=============== */
