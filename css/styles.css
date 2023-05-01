@@ -91,6 +91,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--discription-tex-color);
+  margin-bottom: 72px;
 }
 
 .title {
@@ -101,6 +102,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
+  margin-bottom: 72px;
 }
 
 /*===============/COMPONENTS===============*/
@@ -395,6 +397,7 @@ body {
 }
 
 .footer {
+  padding: 100px 0 100px;
   background: #2e2f42;
   height: 312px;
 }
@@ -409,4 +412,12 @@ body {
   margin-left: 156px;
   margin-right: auto;
   padding-bottom: 16px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.text-footer-item {
+  max-width: 264px;
 }
