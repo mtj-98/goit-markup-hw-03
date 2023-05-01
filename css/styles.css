@@ -247,7 +247,6 @@ body {
   cursor: pointer;
 }
 
-
 .button:hover,
 .button:focus {
   background-color: var(--batton-hover-bg);
@@ -283,11 +282,14 @@ body {
 
 /* ============= WHAT ARE WE DOING============ */
 .work-section {
-  padding: 120px 0 120px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  margin-top: 72px;
+}
+
+.work-card {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -298,9 +300,13 @@ body {
 /* ==================TEAM==================== */
 
 .team-section {
+  padding: 120px 0 120px;
   background: #f4f4fd;
 }
 
+.tram-section-title {
+  margin-bottom: 72px;
+}
 .team {
   margin-top: 120px;
   display: flex;
