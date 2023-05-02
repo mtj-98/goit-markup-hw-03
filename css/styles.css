@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: baseline;
   padding-top: 24px;
-  border-bottom: #e7e9fc 1px solid;
+  padding: 0 15px 0 15px;
 }
 
 .page-header {
@@ -167,7 +167,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-
+margin-bottom: 0%;
 }
 
 .menu-item {
@@ -190,13 +190,10 @@ body {
   color: var(--batton-hover-bg);
 }
 
-.phone-link-item {
-  margin-right: 40px;
-}
-
 .address-list {
   display: flex;
   gap: 40px;
+  margin-bottom: 0;
 }
 
 .address-section {
