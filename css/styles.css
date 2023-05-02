@@ -277,9 +277,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 72px 24px;
-  row-gap: 72px;
-  column-gap: 24px;
+  gap:24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 0;
 }
