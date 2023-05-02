@@ -91,7 +91,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--discription-tex-color);
-  margin-bottom: 72px;
+  margin-bottom: 0;
 }
 
 .title {
@@ -167,7 +167,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-margin-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 .menu-item {
@@ -194,6 +194,7 @@ margin-bottom: 0%;
   display: flex;
   gap: 40px;
   margin-bottom: 0;
+  padding: 24px 0 24px;
 }
 
 .address-section {
@@ -276,14 +277,20 @@ margin-bottom: 0%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 72px 24px;
+  row-gap: 72px;
+  column-gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  margin-bottom: 0;
 }
 
 .goals-title {
   margin-bottom: 8px;
 }
 
+.part-list-section {
+  width: 264px;
+}
 /* ============= WHAT ARE WE DOING============ */
 .doing-section {
   padding-bottom: 120px;
@@ -396,7 +403,6 @@ margin-bottom: 0%;
   flex-wrap: wrap;
   padding-bottom: 48px;
 }
-
 
 .footer {
   padding: 100px 0 100px;
