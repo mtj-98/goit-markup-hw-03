@@ -137,6 +137,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title);
+  padding: 24px 0 24px;
 }
 
 .menu-link:hover,
@@ -153,6 +154,7 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0 24px;
 }
 .page-nav {
   display: flex;
@@ -168,10 +170,6 @@ body {
   align-items: center;
   margin-bottom: 0%;
   gap: 40px;
-}
-
-.menu-items {
-  padding: 24px 0 24px 0;
 }
 
 .contacts {
